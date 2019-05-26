@@ -143,12 +143,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (mosse % 2 == 0){
                     boolean occupato = tris.inserisci(32,0);
                     if (!occupato){
-                        b31.setImageResource(R.drawable.x);
+                        b32.setImageResource(R.drawable.x);
                     }
                 } else {
                     boolean occupato = tris.inserisci(32,1);
                     if (!occupato){
-                        b31.setImageResource(R.drawable.o);
+                        b32.setImageResource(R.drawable.o);
                     }
                 }
                 mosse ++;
